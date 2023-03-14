@@ -1,0 +1,16 @@
+.intro__list {
+    list-style: none;
+    padding: 0;
+    margin: 10.6% 5% 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    min-width: 288px;
+}
+
+.intro__list span {
+    font-weight: 400;
+}

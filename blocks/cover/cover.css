@@ -1,0 +1,8 @@
+.cover {
+  min-width: 320px;
+  min-height: 200px;
+  position: relative;
+  background-image: url(../../images/cover__bg.png);
+  background-size: cover;
+  margin-top: 66px;
+}

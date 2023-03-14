@@ -1,0 +1,7 @@
+.place {
+    margin-top: 50px;
+}
+
+.place:first-of-type {
+    margin-top: 0;
+}

@@ -1,3 +1,11 @@
 .root {
     background-color: #2A2C2F;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: auto;
+    -moz-text-size-adjust: auto;
+    -ms-text-size-adjust: auto;
+    margin: 0;
+    font-family: 'Inter';
+    color: #fff;
 }
