@@ -1,11 +1,14 @@
-.footer {
+.footer__links {
     display: flex;
     flex-wrap: wrap;
-    padding: 64px 0 24px 16px;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 @media (min-width:320px) {
-    .footer {
+    .footer__links {
         flex-direction: column;
     }
 }

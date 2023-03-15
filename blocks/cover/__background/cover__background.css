@@ -1,0 +1,5 @@
+.cover__background {
+    background-image: url(../../images/cover__bg.png);
+    background-size: cover;
+    z-index: 1;
+}
