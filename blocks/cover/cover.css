@@ -1,10 +1,36 @@
 .cover {
-  min-width: 320px;
-  min-height: 200px;
-  position: relative;
   margin-top: 66px;
-  background-image: url(../../images/cover__bg.png);
-  background-size: cover;
   display: flex;
   flex-direction: column;
 }
+/*
+@media all and (max-width: 425px) {
+    .selector {
+        
+    }
+}
+
+@media all and (min-width: 426px) {
+    .selector {
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .selector {
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .selector {
+        
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .selector {
+        
+    }
+}
+*/

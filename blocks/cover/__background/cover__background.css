@@ -1,5 +1,35 @@
 .cover__background {
-    background-image: url(../../images/cover__bg.png);
-    background-size: cover;
-    z-index: 1;
+    width: 100vw;
 }
+
+/*
+@media all and (max-width: 425px) {
+    .selector {
+        
+    }
+}
+
+@media all and (min-width: 426px) {
+    .selector {
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .selector {
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .selector {
+        
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .selector {
+        
+    }
+}
+*/

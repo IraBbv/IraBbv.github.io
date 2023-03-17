@@ -2,3 +2,35 @@
     min-width: 320px;
     margin-bottom: 32px;
 }
+
+/*
+@media all and (max-width: 425px) {
+    .selector {
+        
+    }
+}
+
+@media all and (min-width: 426px) {
+    .selector {
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .selector {
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .selector {
+        
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .selector {
+        
+    }
+}
+*/

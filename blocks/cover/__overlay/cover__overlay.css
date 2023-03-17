@@ -1,9 +1,6 @@
 .cover__overlay {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  min-width: 320px;
-  min-height: 200px;
+  width: 100%;
+  height: 100%;
   background: #2A2C2F;
   opacity: 0.3;
 }
@@ -11,3 +8,34 @@
 .cover__overlay:hover {
     opacity: 0.8;
 }
+/*
+@media all and (max-width: 425px) {
+    .selector {
+        
+    }
+}
+
+@media all and (min-width: 426px) {
+    .selector {
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .selector {
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .selector {
+        
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .selector {
+        
+    }
+}
+*/

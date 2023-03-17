@@ -1,3 +1,35 @@
 .intro {
-    margin: 20% 0 0;
+    margin: 64px 0 0;
+}
+
+@media all and (max-width: 425px) {
+    .intro {
+        margin: 64px 16px 0;
+    }
+}
+
+@media all and (min-width: 426px) {
+    .intro {
+        margin: 70px 18px 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .intro {
+        margin: 88px 24px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro {
+        margin: 92px 286px 0 48px;
+        width: calc(100% - 334px);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        margin: 92px 442px 0 148px;
+        width: calc(100% - 590px);
+    }
 }

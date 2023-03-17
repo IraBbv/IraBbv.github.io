@@ -1,16 +1,28 @@
 .intro__list {
     list-style: none;
     padding: 0;
-    margin: 10.6% 5% 0;
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
-    min-width: 288px;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    margin: 0;
 }
 
 .intro__list span {
     font-weight: 400;
+}
+
+@media all and (max-width: 425px) {
+    .intro__list {
+        margin-top: 34px;
+    }
+}
+
+@media all and (min-width: 426px) {
+    .intro__list {
+        margin-top: 33px;
+    }
 }
