@@ -1,36 +1,30 @@
-.cover {
-  margin-top: 66px;
-  display: flex;
-  flex-direction: column;
-}
-/*
 @media all and (max-width: 425px) {
-    .selector {
-        
+    .cover {
+        margin-top: 66px;
+        min-height: 200px;
     }
 }
 
 @media all and (min-width: 426px) {
-    .selector {
-        
+    .cover {
+        margin-top: 76px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .selector {
-        
+    .cover {
+        margin-top: 90px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .selector {
-        
+    .cover {
+        margin-top: 92px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .selector {
-        
+    .cover {
+        margin: 92px 16px 0;
     }
 }
-*/

@@ -3,39 +3,31 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-/* or 114% */
   text-align: center;
   margin: 0;
+  z-index: 2;
 }
 
-/*
+
 @media all and (max-width: 425px) {
-    .selector {
-        
+    .cover__subtitle {
+        max-width: 288px;
+        font-size: 14px;
+        line-height: 16px;
     }
 }
 
 @media all and (min-width: 426px) {
-    .selector {
-        
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .selector {
-        
+    .cover__subtitle {
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 230px;
     }
 }
-
-@media screen and (min-width: 1024px) {
-    .selector {
-        
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .selector {
-        
-    }
-}
-*/

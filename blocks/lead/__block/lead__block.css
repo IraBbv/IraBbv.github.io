@@ -1,11 +1,13 @@
 .lead__block {
     position: relative;
+    margin: 0;
 }
 
 
 @media all and (max-width: 425px) {
     .lead__block {
         margin-top: 40px;
+        min-height: 200px;
     }
 }
 

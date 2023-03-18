@@ -5,6 +5,7 @@
   letter-spacing: 0em;
   text-align: right;
   color: #fff;
+  margin: 0;
 }
 
 #ru-lang-link {
@@ -14,7 +15,7 @@
 @media all and (max-width: 425px) {
   .header__lang-link {
     font-size: 18px;
-    line-height: 111%;
+    line-height: 20px;
   }
 }
 
