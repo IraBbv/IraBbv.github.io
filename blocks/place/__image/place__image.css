@@ -1,36 +1,36 @@
 .place__image {
     min-width: 320px;
     margin-bottom: 32px;
+    grid-area: image;
 }
 
-/*
+
 @media all and (max-width: 425px) {
-    .selector {
-        
+    .place__image {
+        width: 100%;
     }
 }
 
 @media all and (min-width: 426px) {
-    .selector {
-        
+    .place__image {
+        width: 91.5%;
     }
 }
 
-@media screen and (min-width: 768px) {
-    .selector {
-        
+@media all and (min-width: 768px) {
+    .place__image {
+        min-width: 340px;
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .selector {
-        
+@media all and (min-width: 1024px) {
+    .place__image {
+        min-width: 440px;
     }
 }
 
-@media screen and (min-width: 1280px) {
-    .selector {
-        
+@media all and (min-width: 1280px) {
+    .place__image {
+        min-width: 460px;
     }
 }
-*/

@@ -1,35 +1,29 @@
-.places {
-    margin: 0;
-}
-
-/*
 @media all and (max-width: 425px) {
-    .selector {
-        
+    .places {
+        margin: 64px auto 0;
     }
 }
 
 @media all and (min-width: 426px) {
-    .selector {
-        
+    .places {
+        margin: 74px 12px 0;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .selector {
-        
+    .places {
+        margin: 88px 24px 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .selector {
-        
+    .places {
+        margin: 92px 48px 0;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .selector {
-        
+    .places {
+        margin: 92px 148px 0;
     }
 }
-*/

@@ -3,42 +3,38 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-/* or 26px */
-  margin: 0 16px 25px;
+  margin: 0;
+  grid-area: paragraph;
+  display: flex;
+  flex-direction: column;
 }
 
-.place__paragraph:last-of-type {
-    margin-bottom: 0;
+.place__paragraph p {
+    margin: 0;
 }
 
-/*
 @media all and (max-width: 425px) {
-    .selector {
-        
+    .place__paragraph {
+        gap: 25px;
+        margin: 32px 16px 0;
     }
 }
 
 @media all and (min-width: 426px) {
-    .selector {
-        
+    .place__paragraph {
+        gap: 25px;
+        margin: 32px 16px 0;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .selector {
-        
+    .place__paragraph {
+        margin: 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .selector {
-        
+    .place__paragraph {
+        gap: 26px;
     }
 }
-
-@media screen and (min-width: 1280px) {
-    .selector {
-        
-    }
-}
-*/

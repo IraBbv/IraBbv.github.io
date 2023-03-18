@@ -1,36 +1,33 @@
 .place__website {
   min-width: 288px;
   min-height: 46px;
-  margin: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  grid-area: website;
+  align-self: end;
 }
 
-/*
-@media all and (max-width: 425px) {
-    .selector {
-        
-    }
-}
-
-@media all and (min-width: 426px) {
-    .selector {
-        
-    }
+@media all and (max-width: 767px) {
+    .place__website {
+        margin: 32px 16px;
+    }    
 }
 
 @media screen and (min-width: 768px) {
-    .selector {
-        
+    .place__website {
+        margin-bottom: 48px;
     }
 }
-
+/*
 @media screen and (min-width: 1024px) {
-    .selector {
+    .place__website {
         
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .selector {
+    .place__websites {
         
     }
 }
