@@ -16,7 +16,7 @@
 
 .cover__overlay::before {
     content: '';
-    background: #6c727a;
+    background: #2A2C2F;
     opacity: 0.3;
     transition: 0.3s;
     z-index: -1;

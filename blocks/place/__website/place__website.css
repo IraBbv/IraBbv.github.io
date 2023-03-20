@@ -1,6 +1,5 @@
 .place__website {
   min-width: 288px;
-  min-height: 46px;
   display: flex;
   flex-direction: column;
   gap: 12px;

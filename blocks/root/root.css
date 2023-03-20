@@ -6,6 +6,16 @@
     -moz-text-size-adjust: auto;
     -ms-text-size-adjust: auto;
     margin: 0;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     color: #fff;
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        background-color: #2A2C2F;
+    }
+    .root {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
 }
