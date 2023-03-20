@@ -1,14 +1,12 @@
+.place {
+    margin-bottom: 50px;
+}
+
 .place:last-of-type {
     margin: 0;
 }
 
-@media all and (max-width: 425px) {
-    .place {
-        margin-bottom: 50px;
-    }
-}
-
-@media all and (min-width: 426px) {
+@media all and (min-width: 425px) {
     .place {
         margin-bottom: 55px;
     }

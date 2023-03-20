@@ -4,14 +4,13 @@
   letter-spacing: 0em;
   text-align: left;
   margin: 0;
+  font-size: 32px;
+  line-height: 35px;
 }
 
 @media all and (max-width: 425px) {
     .intro__title {
-        font-size: 32px;
-        line-height: 35px;
-    /* or 109% */
-        width: 75%;
+        max-width: 250px;
     }
 }
 
@@ -26,6 +25,5 @@
     .intro__title {
         font-size: 54px;
         line-height: 58px;
-    /* identical to box height, or 107% */
     }
 }

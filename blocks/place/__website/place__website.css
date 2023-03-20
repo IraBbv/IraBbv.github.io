@@ -5,29 +5,11 @@
   gap: 12px;
   grid-area: website;
   align-self: end;
-}
-
-@media all and (max-width: 767px) {
-    .place__website {
-        margin: 32px 16px;
-    }    
+  margin: 32px 16px;
 }
 
 @media screen and (min-width: 768px) {
     .place__website {
-        margin-bottom: 48px;
+        margin: 0 0 48px;
     }
 }
-/*
-@media screen and (min-width: 1024px) {
-    .place__website {
-        
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .place__websites {
-        
-    }
-}
-*/

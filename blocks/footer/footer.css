@@ -1,17 +1,11 @@
 .footer {
     display: flex;
+    flex-direction: column;
+    padding: 64px 0 24px 16px;
 }
 
-@media all and (max-width: 425px) {
+@media all and (min-width: 425px) {
     .footer {
-        flex-direction: column;
-        padding: 64px 0 24px 16px;
-    }
-}
-
-@media all and (min-width: 426px) {
-    .footer {
-        flex-direction: column;
         padding: 70px 0 18px 20px;
     }
 }

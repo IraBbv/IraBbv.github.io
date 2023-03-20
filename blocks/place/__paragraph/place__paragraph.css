@@ -7,24 +7,12 @@
   grid-area: paragraph;
   display: flex;
   flex-direction: column;
+  gap: 25px;
+  margin: 32px 16px 0;
 }
 
 .place__paragraph p {
     margin: 0;
-}
-
-@media all and (max-width: 425px) {
-    .place__paragraph {
-        gap: 25px;
-        margin: 32px 16px 0;
-    }
-}
-
-@media all and (min-width: 426px) {
-    .place__paragraph {
-        gap: 25px;
-        margin: 32px 16px 0;
-    }
 }
 
 @media screen and (min-width: 768px) {

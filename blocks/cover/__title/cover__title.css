@@ -4,40 +4,15 @@
   text-align: center;
   margin: 0;
   z-index: 2;
-}
-
-@media all and (max-width: 425px) {
-    .cover__title {
-        font-size: 32px;
-        line-height: 35px;
-        max-width: 230px;
-    }
-}
-
-@media all and (min-width: 426px) {
-    .cover__title {
-        font-size: 32px;
-        line-height: 35px;
-        max-width: 230px;
-    }
+  font-size: 32px;
+  line-height: 35px;
+  max-width: 230px;
 }
 
 @media screen and (min-width: 768px) {
     .cover__title {
         font-size: 72px;
         line-height: 76px;
-        max-width: 560px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .cover__title {
-        max-width: 560px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .cover__title {
         max-width: 560px;
     }
 }

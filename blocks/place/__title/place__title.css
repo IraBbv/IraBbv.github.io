@@ -1,22 +1,17 @@
 .place__title {
   font-style: normal;
   font-weight: 900;
-  margin: 0;
+  margin: 0 16px 0;
   grid-area: title;
+  font-size: 32px;
+  line-height: 35px;
 }
 
-@media all and (max-width: 425px) {
-    .place__title {
-        font-size: 32px;
-        line-height: 35px;
-        margin-left: 16px;
-    }
-}
-
-@media all and (min-width: 426px) {
+@media all and (min-width: 425px) {
     .place__title {
         font-size: 36px;
         line-height: 38px;
+        margin: 0;
     }
 }
 

@@ -12,6 +12,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 200px;
 }
 
 .cover__overlay::before {
@@ -23,18 +24,12 @@
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .cover__overlay:hover::before {
     opacity: 0.8;
-}
-
-@media all and (max-width: 424px) {
-    .cover__overlay {
-        min-height: 200px;
-    }
 }
 
 @media all and (min-width: 425px) {

@@ -14,7 +14,7 @@
     }
 }
 
-@media all and (min-width: 426px) {
+@media all and (min-width: 768px) {
     .footer__links {
         gap: 18px;
     }
