@@ -6,4 +6,9 @@
   font-size: 18px;
   line-height: 22px;
   margin: 0;
+  max-width: fit-content;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }

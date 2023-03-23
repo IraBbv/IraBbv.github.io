@@ -5,6 +5,7 @@
   line-height: 12px;
 /* identical to box height, or 100% */
   letter-spacing: 2px;
+  text-transform: uppercase;
   color: #aaa;
   margin: 0;
 }

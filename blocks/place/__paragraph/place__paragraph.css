@@ -3,25 +3,19 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-  grid-area: paragraph;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  margin: 32px 16px 0;
+  margin: 0;
 }
 
-.place__paragraph p {
-    margin: 0;
+@media all and (min-width: 768px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 
-@media screen and (min-width: 768px) {
-    .place__paragraph {
-        margin: 0;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .place__paragraph {
-        gap: 26px;
-    }
+@media all and (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+  }
 }

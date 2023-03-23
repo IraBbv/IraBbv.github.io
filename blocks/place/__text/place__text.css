@@ -1,0 +1,19 @@
+.place__text {
+  grid-area: paragraph;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 32px 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .place__text {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place__text {
+        gap: 26px;
+    }
+}

@@ -11,10 +11,6 @@
     margin: 34px 0 0;
 }
 
-.intro__list span {
-    font-weight: 400;
-}
-
 @media all and (min-width: 768px) {
     .intro__list {
         margin-top: 33px;
